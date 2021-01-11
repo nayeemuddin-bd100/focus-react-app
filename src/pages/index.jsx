@@ -467,7 +467,6 @@ function Pages() {
 
         {/* contact end */}
 
-        {/* return closing tag */}
       </div>
     );
     
