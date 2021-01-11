@@ -17,6 +17,7 @@ function Nav() {
                   </div>
                 </div>
               </div>
+
               <div className="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                 <div className="menu-area">
                   <div className="limit-box">
@@ -31,9 +32,7 @@ function Nav() {
                         <li>
                           <a href="#service">Service</a>
                         </li>
-                        <li>
-                          <a href="#testimonial">Testimonial</a>
-                        </li>
+
                         <li>
                           <a href="#contact">Contact Us</a>
                         </li>
