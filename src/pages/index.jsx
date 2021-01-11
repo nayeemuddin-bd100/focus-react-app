@@ -1,7 +1,8 @@
-import '../assets/css/bootstrap.min.css';
-import '../assets/css/responsive.css';
-import '../assets/css/style.css';
-//
+//css
+// import '../assets/css/bootstrap.min.css';
+// import '../assets/css/responsive.css';
+// import '../assets/css/style.css';
+//Icon and Image
 import bulitIcon from '../assets/images/bulit-icon.png';
 import emailIcon from '../assets/images/email-icon.png';
 import fbIcon from '../assets/images/fb-icon.png';
@@ -18,7 +19,6 @@ import img1 from '../assets/images/img-1.png';
 import img2 from '../assets/images/img-2.png';
 import inIcon from '../assets/images/in-icon.png';
 import logo from '../assets/images/logo.png';
-//
 import mapIcon from '../assets/images/map-icon.png';
 import optimisedIcon from '../assets/images/optimised-icon.png';
 import phoneIcon from '../assets/images/phone-icon.png';
