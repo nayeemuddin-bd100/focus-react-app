@@ -1,6 +1,7 @@
-import headFoneIcon from "../../assets/images/headfone-icon.png";
 import optimisedIcon from "../../assets/images/optimised-icon.png";
 import powerFullIcon from "../../assets/images/power-full-icon.png";
+import Item from "./item";
+import ReadMoreBtn from "./readmoreBtn";
 
 function Choose() {
     
@@ -25,67 +26,42 @@ function Choose() {
           <div className="container">
             <div className="row">
               <div className="col-sm-4">
-                <div className="power_full">
-                  <div className="icon">
-                    <a href="#">
-                      <img src={powerFullIcon} />
-                    </a>
-                  </div>
-                  <h2 className="powerful_text">Powerful Features</h2>
-                  <p className="making_tetx">
-                    making it look like readable English. Many desktop
+                <Item
+                  bodyClass="power_full"
+                  headline="Powerfull Feature"
+                  img={powerFullIcon}
+                  text="making it look like readable English. Many desktop
                     publishing packages and web page editors now use Lorem Ipsum
-                    as their default model text, and a search for 'lorem ipsum'
-                    will uncover many web sites still{" "}
-                  </p>
-                </div>
-                <div className="btn_main">
-                  <button type="button" className="read_bt">
-                    <a href="#">Read More</a>
-                  </button>
-                </div>
+                    as their default model text, and a search for lorem ipsum
+                    will uncover many web sites still "
+                />
+                <ReadMoreBtn />
               </div>
+
               <div className="col-sm-4">
-                <div className="power">
-                  <div className="icon">
-                    <a href="#">
-                      <img src={optimisedIcon} />
-                    </a>
-                  </div>
-                  <h2 className="totaly_text">Totaly Optimised</h2>
-                  <p className="making">
-                    making it look like readable English. Many desktop
+                <Item
+                  bodyClass="power"
+                  img={optimisedIcon}
+                  headline="Totaly Optimised"
+                  text=" making it look like readable English. Many desktop
                     publishing packages and web page editors now use Lorem Ipsum
-                    as their default model text, and a search for 'lorem ipsum'
-                    will uncover many web sites still{" "}
-                  </p>
-                </div>
-                <div className="btn_main">
-                  <button type="button" className="read_bt">
-                    <a href="#">Read More</a>
-                  </button>
-                </div>
+                    as their default model text, and a search for lorem ipsum
+                    will uncover many web sites still"
+                />
+                <ReadMoreBtn />
               </div>
+
               <div className="col-sm-4">
-                <div className="power">
-                  <div className="icon">
-                    <a href="#">
-                      <img src={headFoneIcon} />
-                    </a>
-                  </div>
-                  <h2 className="totaly_text">Worldwide Support</h2>
-                  <p className="making">
-                    making it look like readable English. Many desktop
+                <Item
+                  bodyClass="power"
+                  img={optimisedIcon}
+                  headline="Worldwide Support"
+                  text=" making it look like readable English. Many desktop
                     publishing packages and web page editors now use Lorem Ipsum
-                    as their default model text, and a search for 'lorem ipsum'
-                    will uncover many web sites still{" "}
-                  </p>
-                </div>
-                <div className="btn_main">
-                  <button type="button" role="button" className="read_bt">
-                    <a href="#">Read More</a>
-                  </button>
-                </div>
+                    as their default model text, and a search for lorem ipsum
+                    will uncover many web sites still"
+                />
+                <ReadMoreBtn />
               </div>
             </div>
           </div>

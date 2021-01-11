@@ -9,11 +9,6 @@ import Nav from '../components/nav';
 import Services from '../components/services';
 
 
-
-
-
-
-
 function Pages() {
     return (
       <div>
